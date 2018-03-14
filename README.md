@@ -1,1 +1,1 @@
-# Prime-Steak-Restaurant
+So this is the first attempt at a portfolio site for myself. It is still in the proto phase and will be continually updated as I finish worth while projects to add to show case my skills as I progress into my career. 
