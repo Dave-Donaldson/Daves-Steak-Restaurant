@@ -1,0 +1,64 @@
+#TopImg {
+ position:relative;
+ background: black;
+ min-height:500px;
+ height:100vh;
+ // width:100%;
+ background: linear-gradient(135deg, rgba(0,0,0, .2)
+ 0, #002d77 100%);
+ background: linear-gradient(135deg, rgba(0,0,0, .2)
+ 0, #000 100%), url('http://ww1.prweb.com/prfiles/2015/07/29/12877779/RCSH-Sizzling-Filet.jpg');
+ background-position: center;
+ background-size: cover;
+ 
+ .title{
+  padding: 215px 0 255px 0;
+  text-align: right;
+  
+  h5{
+   text-transform: uppercase;
+   color:white;
+   font-weight: 300;
+ 
+  }
+ 
+  h1{
+   text-align: right;
+   font-family:$displayFont; 
+   text-transform: uppercase;
+   color:white;
+   font-weight: 300;
+   font-size: 6rem;
+   
+   
+   }
+  
+ }
+ .contact-info{
+  // width:100%;
+  // position:absolute;
+  // bottom:50px;
+  // right:0;
+  text-align: right;
+  color:$paragraphColor;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  // padding:0 0 200px 0;
+  margin:0 0 200px 0;
+
+  strong{
+   font-weight: bold;
+   color:white;
+  }
+  .booking{
+   margin-bottom: 10px;
+   color:$paragraphColor;
+  }
+  h2{
+   color:white;
+   font-size: 2rem;
+   // margin-bottom: 20px;
+  }
+ }
+
+}

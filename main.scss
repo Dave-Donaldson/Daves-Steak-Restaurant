@@ -1,0 +1,30 @@
+@import "reset";
+@import url('https://fonts.googleapis.com/css?family=Vast+Shadow');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans:400,700|Rozha+One');
+@import "variables";
+@import "grid";
+@import "Header";
+@import "TopImg";
+@import "OurStory";
+@import "SpecialMenu";
+@import "RandomQuote";
+@import "Reviews";
+@import "ContactUs";
+@import "Footer";
+@import "global";
+
+
+@font-face {
+  font-family: road_rage;
+  src: url('/fonts/Road_Rage.otf');
+}
+
+body {
+  font-family: $textFont;
+  
+
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+

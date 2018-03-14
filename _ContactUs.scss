@@ -1,0 +1,46 @@
+#ContactUs {
+ padding:100px 0;
+ 
+ h2, h5{
+  text-align: center;
+ }
+
+ .box{
+   padding:70px;
+   background:#fff;
+   .title{
+     font-family: $displayFont;
+     font-size: 2rem;
+     margin-bottom: 2rem;
+     
+   }
+   h6{
+     font-size: .9rem;
+     font-weight: 600;
+     color:$titleColor;
+     line-height: 1.7;
+     color:$black;
+   }
+   p{
+     font-weight: 400;
+     margin-bottom: 20px;
+     strong{
+       color:$black;
+       text-transform: capitalize;
+       font-weight: 600;
+     }
+     a{
+       color:$paragraphColor;
+       text-decoration: none;
+       transition:all .5s ease-in-out;
+      
+      &:hover{
+        color:$red;
+        font-weight: 600;
+      }
+
+     }
+   }
+ }
+ 
+}

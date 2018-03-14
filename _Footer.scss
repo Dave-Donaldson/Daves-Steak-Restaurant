@@ -1,0 +1,49 @@
+footer {
+ padding:100px 0;
+ background:$footerBG;
+ width:100%;
+ text-align: center;
+ nav{
+  display: inline-block;
+  margin:0 auto 50px;
+  a{
+   color:white;
+   display: inline-block;
+   padding:10px 20px 10px 5px;
+   text-decoration: none;
+   span{
+    padding:0 25px 0 0;
+    border-right: 2px solid $paragraphColor;
+    }
+  }
+  #icons{
+   color:white;
+   font-size: 2rem;
+  }
+  
+ }
+ .copyright{
+  color:$titleColor;
+ }
+ .social-media{
+  margin:0 0 50px;
+  padding:0;
+  li{
+   display: inline-block;
+   padding:20px;
+   a{
+    color:white;
+    &:hover{
+     color:$red;
+      }
+   }
+ // .icons{
+ //  color:white;
+ //  font-size: 1.5rem;
+ //  padding:50px 15px;
+ //  transition:all .5s ease-in-out;
+  
+ //   }
+  }
+ }
+}
