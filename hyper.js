@@ -123,7 +123,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 var companyInfo = {
-  title: 'PRIME STEAK',
+  title: "DAVE'S STEAK",
   phone: '(718) 219-8652',
   location: 'Los Angeles, California',
   email: 'info@primesteak.com',
@@ -494,7 +494,7 @@ function Header(_ref) {
           (0, _hyperapp.h)(
             "span",
             null,
-            "prime"
+            "Dave's"
           ),
           (0, _hyperapp.h)("br", null),
           "steak restaurant"
