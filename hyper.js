@@ -126,7 +126,7 @@ var companyInfo = {
   title: "DAVE'S STEAK",
   phone: '(718) 219-8652',
   location: 'Los Angeles, California',
-  email: 'info@primesteak.com',
+  email: 'info@davessteak.com',
   lunch: 'Friday, Saturday, Sunday',
   lunchHours: '12pm - 1:30pm',
   dinner: 'Daily',
